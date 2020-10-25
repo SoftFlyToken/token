@@ -1,0 +1,15 @@
+
+# Dependency directory
+node_modules
+
+# truffle build directory
+build/
+
+# truffle mono contracts directory
+#monocontracts/*.sol
+
+# macOS
+.DS_Store
+
+# truffle
+.node-xmlhttprequest-*

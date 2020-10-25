@@ -1,0 +1,22 @@
+{
+  "name": "SoftFlyToken List",
+  "logoURI": "https://avatars0.githubusercontent.com/u/36115574",
+  "timestamp": "2020-10-25T00:00:00+00:00",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "keywords": [],
+  "tokens": [
+    {
+      "name": "SoftFlyToken",
+      "address": "адрес контракта",
+      "symbol": "SFT",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://avatars0.githubusercontent.com/u/36115574"
+    }
+  ]
+}

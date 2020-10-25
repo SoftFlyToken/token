@@ -1,0 +1,20 @@
+{
+  "name": "token",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "compile": "truffle compile",
+    "deploy:dev": "truffle migrate --network development",
+    "concat": "yarn run concat:all",
+    "concat:all": "yarn run concat:Token",
+    "concat:Token": "truffle-flattener contracts/SoftFlyToken.sol > monocontracts/SoftFlyToken.sol",
+    "ganache": "ganache-cli --deterministic"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^3.2.0",
+    "ganache-cli": "^6.12.0",
+    "truffle": "^5.1.49",
+    "truffle-flattener": "^1.5.0"
+  }
+}
